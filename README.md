@@ -1,2 +1,1 @@
-# Animal-em-ext
-Aula de HTML básico. 
+# Repositóro criado para aulas da UNIVALI 
