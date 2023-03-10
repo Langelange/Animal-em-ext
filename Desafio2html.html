@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas!</title>
+</head>
+<body>
+    <h1>Lançamento de Notas</h1>
+    
+    <form 
+        name="Lançamento de notas"
+        method="post"
+        action="resultado.html"
+        autocomplete="on"
+        enctype="application/x-www-form-urlencoded"
+        target="_self">
+
+        <h2>Seleção de disciplina
+            <select name="Disciplina" id="1">
+                <option value="1">Introdução á informática</option>
+                <option value="2">Linguagens de Programação</option>
+                <option value="3">Programação de computadores</option>
+            </select>
+        </h2>
+<h3>
+    <table width="600px" border="0 px">
+        <tr>
+            <th>Nome do Aluno</th>
+            <th>Prova 1</th>
+            <th>Prova 2</th>
+            <th>Exame</th>
+            <th>Média</th>
+            <th>Faltas</th>
+        </tr>
+        <tr>
+            <th><font size ="3">Joana da Silva</font></th>
+            <th><input type="number"  min='0' max='10' name="Prova1" id="idProva1" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Prova2" id="idProva2" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Exame" id="idExame" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Média" id="idMédia" required="" size="5" readonly=""></th>
+            <th><input type="number" min='0' max='10' name="Faltas" id="idFaltas" required="" size="5"></th>
+        </tr>
+        <tr>
+            <th><font size ="3">Maria do Socorro</font></th>
+            <th><input type="number" min='0' max='10' name="Prova1" id="idProva1" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Prova2" id="idProva2" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Exame" id="idExame" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Média" id="idMédia" required="" size="5" readonly=""></th>
+            <th><input type="number" min='0' max='10' name="Faltas" id="idFaltas" required="" size="5"></th>
+        </tr>
+        <tr>
+            <th><font size ="3">Pedro Santos</font></th>
+            <th><input type="number" min='0' max='10' name="Prova1" id="idProva1" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Prova2" id="idProva2" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Exame" id="idExame" required="" size="5"></th>
+            <th><input type="number" min='0' max='10' name="Média" id="idMédia" required="" size="5" readonly=""></th>
+            <th><input type="number" min='0' max='10' name="Faltas" id="idFaltas" required="" size="5"></th>
+        </tr>
+    </table>
+</h3>
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
