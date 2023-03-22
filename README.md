@@ -7,3 +7,5 @@ https://langelange.github.io/aulas-univali/Desafio2html.html
 https://langelange.github.io/aulas-univali/DesafioHtml.html
 
 https://langelange.github.io/aulas-univali/handscalc2.cpp 
+
+https://langelange.github.io/aulas-univali/carta.html
