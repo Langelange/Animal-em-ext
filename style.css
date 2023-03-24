@@ -1,0 +1,33 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 26; 
+    text-align: center;
+    color: white; 
+    position: fixed;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    text-align: left;
+    color: orange;
+    text-indent: 0%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    text-align: justify;
+    color: black;
+}
+
+div{
+    width: 550px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 0px;
+    line-height: 1px;
+    position: relative;
+    background-color: rgb(102, 58, 87);
+
+}
